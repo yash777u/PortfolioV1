@@ -22,17 +22,18 @@ const AboutMe = () => {
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> Me </span>
                 </h1>
                 <p className="text-lg text-white leading-relaxed">
-                    Hi, I'm Yogesh Kumar, a Full Stack Developer with expertise in Java,
+                    Hi, I&apos;m Yogesh Kumar, a Full Stack Developer with expertise in Java,
                     Spring Boot, Python, React, and Angular. I specialize in creating
                     scalable backend services, robust frontend interfaces, and seamless
                     API integrations.
 
                     One of my notable projects is an unofficial Cricbuzz app that
-                    delivers live cricket scores and player stats. I'm currently expanding
+                    delivers live cricket scores and player stats. I&apos;m currently expanding
                     my skills in JavaScript, Python, and DevOps, aiming to build
                     high-performance cloud-based solutions. <br /><br />
-                    Besides coding, I take pleasure in reading, listening to audiobooks, and running. Let's connect to explore new projects and stay updated on tech trends!
+                    Besides coding, I take pleasure in reading, listening to audiobooks, and running. Let&apos;s connect to explore new projects and stay updated on tech trends!
                 </p>
+
             </div>
         </div>
     );

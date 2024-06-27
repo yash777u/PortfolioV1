@@ -46,13 +46,14 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            I'm
+            I&apos;m
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
               Yogesh Kumar{" "}
             </span>
             Fullstack Developer
           </span>
+
         </motion.div>
 
         <motion.p
@@ -70,7 +71,7 @@ const HeroContent = () => {
           Learn More!
         </motion.a>
 
-      </div>
+      </div >
 
       <motion.div
         variants={slideInFromRight(0.8)}
@@ -83,7 +84,7 @@ const HeroContent = () => {
           width={650}
         />
       </motion.div>
-    </motion.div>
+    </motion.div >
   );
 };
 

@@ -27,7 +27,8 @@ const Certificates: React.FC = () => {
         }, 4000); // Change slide every 4 seconds
 
         return () => clearInterval(interval);
-    }, []);
+    }, [images.length]); // Include images.length in the dependency array
+
 
 
     return (
