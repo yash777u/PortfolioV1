@@ -1,105 +1,108 @@
-export const Skill_data = [
-    {
-      skill_name: "Html 5",
-      Image: "/html.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Css",
-      Image: "/css.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Java Script",
-      Image: "/js.png",
-      width: 65,
-      height: 65,
-    },
-    {
-      skill_name: "Tailwind Css",
-      Image: "/tailwind.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "React",
-      Image: "/react.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Redux",
-      Image: "/redux.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "React Query",
-      Image: "/reactquery.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Type Script",
-      Image: "/ts.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Next js 13",
-      Image: "/next.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Framer Motion",
-      Image: "/framer.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "JQuery",
-      Image: "/jquery-4.svg",
-      width: 80,
-      height: 80,
-    }
-  
-  ];
-  
+import { Skill } from "./types";
 
-  export const Socials = [
-    {
-      name: "Github",
-      src: "/github.webp",
-      href: "https://github.com/yash777u",
-    },
-    {
-      name: "Email",
-      src: "/mail.png",
-      href: "mailto:yogesh.kumar.02@proton.me",
-    },
-    {
-      name: "X",
-      src: "/x.webp",
-      href: "https://x.com/yogesh_kumar_02", // Replace with appropriate URL or leave as '#' for example
-    },
-    {
-      name: "LinkedIn",
-      src: "/linkedin.png",
-      href: "https://www.linkedin.com/in/yogesh-kumar-83bb891bb/",
-    },
-    {
-      name: "Leetcode",
-      src: "/leetcode.png",
-      href: "https://leetcode.com/u/yash777u/",
-    },
-  ];
+export const Skill_data: Skill[] = [
+  {
+    skill_name: "Html 5",
+    Image: "/html.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Css",
+    Image: "/css.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Java Script",
+    Image: "/js.png",
+    width: 65,
+    height: 65,
+  },
+  {
+    skill_name: "Tailwind Css",
+    Image: "/tailwind.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "React",
+    Image: "/react.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Redux",
+    Image: "/redux.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "React Query",
+    Image: "/reactquery.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Type Script",
+    Image: "/ts.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Next js 13",
+    Image: "/next.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Framer Motion",
+    Image: "/framer.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "JQuery",
+    Image: "/jquery-4.svg",
+    width: 80,
+    height: 80,
+  },
+];
+
+// Do the same for other skill arrays like Frontend_skill, Backend_skill, etc.
+
+  
+export const Socials = [
+  {
+    name: "Github",
+    src: "/github.webp",
+    href: "https://github.com/yash777u",
+  },
+  {
+    name: "Email",
+    src: "/mail.png",
+    href: "mailto:yogesh.kumar.02@proton.me",
+  },
+  {
+    name: "X",
+    src: "/x.webp",
+    href: "https://x.com/yogesh_kumar_02",
+  },
+  {
+    name: "LinkedIn",
+    src: "/linkedin.png",
+    href: "https://www.linkedin.com/in/yogesh-kumar-83bb891bb/",
+  },
+  {
+    name: "Leetcode",
+    src: "/leetcode.png",
+    href: "https://leetcode.com/u/yash777u/",
+  },
+];
   
   
   
-  export const Frontend_skill = [
+  export const Frontend_skill : Skill[] = [
     {
       skill_name: "Java",
       Image: "/java.png",
@@ -156,7 +159,7 @@ export const Skill_data = [
     }
   ];
   
-  export const Backend_skill = [
+  export const Backend_skill : Skill[]= [
     {
       skill_name: "postman",
       Image: "/postman.png",
