@@ -95,7 +95,7 @@ const Navbar = () => {
       </div>
 
       {menuOpen && (
-        <div className="md:hidden w-full bg-[#03001417] opacity-[0.9] px-10 py-5 mt-2">
+        <div className="md:hidden w-full bg-[#03001417] bg-purple-600 px-10 py-5 mt-2">
           <div className="flex flex-col items-start space-y-4 text-gray-200">
             <a href="#about-me" className="cursor-pointer" onClick={handleMenuItemClick}>
               About
@@ -118,7 +118,7 @@ const Navbar = () => {
             <a href="#contact" className="cursor-pointer" onClick={handleMenuItemClick}>
               Contact
             </a>
-            <div className="flex flex-row gap-5 mt-4">
+            <div className="flex flex-row gap-5 mt-20">
               {Socials.map((social) => (
                 <a href={social.href} key={social.name} target="_blank" rel="noopener noreferrer">
                   <Image
