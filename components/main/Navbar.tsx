@@ -95,7 +95,7 @@ const Navbar = () => {
       </div>
 
       {menuOpen && (
-        <div className="md:hidden w-full bg-[#03001417] backdrop-blur-2xl px-10 py-5 mt-2">
+        <div className="md:hidden w-full bg-[#03001417] bg-slate-800 px-10 py-5 mt-2">
           <div className="flex flex-col items-start space-y-4 text-gray-200">
             <a href="#about-me" className="cursor-pointer" onClick={handleMenuItemClick}>
               About
