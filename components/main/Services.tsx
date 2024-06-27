@@ -40,7 +40,14 @@ const Services: React.FC = () => {
   return (
     <section id="services" className="container mx-auto px-4 space-y-6 bg-slate-900 text-white py-8 md:py-12 lg:py-20">
       <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-        <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-6xl">Our Services</h2>
+        <h2 className="font-bold text-5xl leading-[1.1] sm:text-3xl md:text-6xl"><span>
+            Our
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              {" "}
+              Services{" "}
+            </span>
+            
+          </span></h2>
         <p className="max-w-[85%] leading-normal text-gray-400 sm:text-lg sm:leading-7">
           We offer a comprehensive range of services to meet your development needs.
         </p>
