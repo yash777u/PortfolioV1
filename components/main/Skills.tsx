@@ -8,8 +8,9 @@ import {
 import React from "react";
 import SkillDataProvider from "../sub/SkillDataProvider";
 import SkillText from "../sub/SkillText";
+import { Skill } from './SkillData'; // Import Skill type
 
-const Skills = () => {
+const Skills: React.FC = () => {
   return (
     <section
       id="skills"
@@ -19,7 +20,7 @@ const Skills = () => {
       <SkillText />
 
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Skill_data.map((image, index) => (
+        {Skill_data.map((image: Skill, index: number) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
@@ -31,7 +32,7 @@ const Skills = () => {
       </div>
 
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Frontend_skill.map((image, index) => (
+        {Frontend_skill.map((image: Skill, index: number) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
@@ -42,7 +43,7 @@ const Skills = () => {
         ))}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Backend_skill.map((image, index) => (
+        {Backend_skill.map((image: Skill, index: number) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
@@ -53,7 +54,7 @@ const Skills = () => {
         ))}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Full_stack.map((image, index) => (
+        {Full_stack.map((image: Skill, index: number) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
@@ -64,7 +65,7 @@ const Skills = () => {
         ))}
       </div>
       {/* <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Other_skill.map((image, index) => (
+        {Other_skill.map((image: Skill, index: number) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
